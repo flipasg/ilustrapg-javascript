@@ -1,0 +1,64 @@
+/*WELCOME DIV*/
+
+html,
+body,
+.cs-container {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'CallingCode';
+    src: url(../fonts/CallingCode-Regular.ttf);
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(../fonts/fontawesome-webfont.woff);
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+body {
+    font-family: 'CallingCode', Verdana, sans-serif !important;
+    overflow: hidden;
+    color: #b0385a;
+}
+
+.cs-container {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: url(../img/logos/SVG/logo.lluvia.welcome.svg) no-repeat top center fixed;
+    background-size: 500px;
+    position: relative;
+}
+
+.contact-information {
+    text-align: right;
+    position: absolute;
+    bottom: 40px;
+    left: 90px;
+}
+
+.contact-information h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.social-icon {
+    height: 50px;
+}
+
+.cs-title {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
